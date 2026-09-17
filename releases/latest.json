@@ -1,0 +1,29 @@
+{
+  "version": "1.0.1",
+  "releaseDate": "2026-09-17",
+  "title": "染厂染料管理系统 1.0.1 正式版",
+  "changelog": [
+    "【仓储管理】新增染化料精细化库存、出入库台账与安全库存预警看板",
+    "【来胚流转】新增客户胚布来料登记、成品染色出库与损耗追溯",
+    "【一键更新】新增 Gitee / GitHub 双线路智能测速与断流无缝热切更新",
+    "【成本核算】支持配方用量折算、打单库存自动联动扣减",
+    "【兼容优化】持续优化 Windows 7 及老旧工控机低内存平稳运行"
+  ],
+  "filename": "染厂染料管理系统-安装程序-1.0.1.exe",
+  "size": 82450120,
+  "sha256": "",
+  "routes": [
+    {
+      "id": "gitee",
+      "name": "国内极速专线 (Gitee 镜像节点)",
+      "manifestUrl": "https://gitee.com/cat-stripe/jiexin-desktop/raw/main/releases/latest.json",
+      "downloadUrl": "https://gitee.com/cat-stripe/jiexin-desktop/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe"
+    },
+    {
+      "id": "github",
+      "name": "海外备用专线 (GitHub 节点)",
+      "manifestUrl": "https://raw.githubusercontent.com/hanserdesu/jiexin-desktop/main/releases/latest.json",
+      "downloadUrl": "https://github.com/hanserdesu/jiexin-desktop/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe"
+    }
+  ]
+}
