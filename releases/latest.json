@@ -17,13 +17,13 @@
       "id": "gitee",
       "name": "国内极速专线 (Gitee 镜像节点)",
       "manifestUrl": "https://gitee.com/cat-stripe/jiexin-desktop/raw/main/releases/latest.json",
-      "downloadUrl": "https://gitee.com/cat-stripe/jiexin-desktop/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe"
+      "downloadUrl": "https://gitee.com/cat-stripe/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe"
     },
     {
       "id": "github",
       "name": "海外备用专线 (GitHub 节点)",
       "manifestUrl": "https://raw.githubusercontent.com/hanserdesu/jiexin-desktop/main/releases/latest.json",
-      "downloadUrl": "https://github.com/hanserdesu/jiexin-desktop/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe"
+      "downloadUrl": "https://github.com/hanserdesu/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe"
     }
   ]
 }
