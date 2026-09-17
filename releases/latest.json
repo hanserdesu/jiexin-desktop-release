@@ -12,17 +12,32 @@
   "filename": "JiexinDyeManager-Setup-1.0.1.exe",
   "size": 179551141,
   "sha256": "1e550fab618166be2272952569812aed29a40f81b1544c7278374fdd6a0b1fb8",
+  "partSize": 99000000,
+  "parts": [
+    {
+      "index": 1,
+      "size": 99000000,
+      "primary": "https://gitee.com/cat-stripe/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe.part1",
+      "fallback": "https://github.com/hanserdesu/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe.part1"
+    },
+    {
+      "index": 2,
+      "size": 80551141,
+      "primary": "https://gitee.com/cat-stripe/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe.part2",
+      "fallback": "https://github.com/hanserdesu/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe.part2"
+    }
+  ],
   "routes": [
     {
       "id": "gitee",
       "name": "国内极速专线 (Gitee 镜像节点)",
-      "manifestUrl": "https://gitee.com/cat-stripe/jiexin-desktop/raw/main/releases/latest.json",
-      "downloadUrl": "https://gitee.com/cat-stripe/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe"
+      "manifestUrl": "https://gitee.com/cat-stripe/jiexin-desktop-release/raw/main/releases/latest.json",
+      "downloadUrl": "https://github.com/hanserdesu/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe"
     },
     {
       "id": "github",
       "name": "海外备用专线 (GitHub 节点)",
-      "manifestUrl": "https://raw.githubusercontent.com/hanserdesu/jiexin-desktop/main/releases/latest.json",
+      "manifestUrl": "https://raw.githubusercontent.com/hanserdesu/jiexin-desktop-release/main/releases/latest.json",
       "downloadUrl": "https://github.com/hanserdesu/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe"
     }
   ]
