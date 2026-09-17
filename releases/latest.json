@@ -1,30 +1,30 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "releaseDate": "2026-09-17",
-  "title": "染厂染料管理系统 1.0.1 正式版",
+  "title": "染厂染料管理系统 1.0.2 正式版",
   "changelog": [
-    "【仓储管理】新增染化料精细化库存、出入库台账与安全库存预警看板",
-    "【来胚流转】新增客户胚布来料登记、成品染色出库与损耗追溯",
-    "【一键更新】新增 Gitee / GitHub 双线路智能测速与断流无缝热切更新",
-    "【成本核算】支持配方用量折算、打单库存自动联动扣减",
-    "【兼容优化】持续优化 Windows 7 及老旧工控机低内存平稳运行"
+    "【防逆向加固】构建流程全面接入代码混淆与自卫反调试，保护核心商业逻辑与授权校验",
+    "【环境兼容性修复】解决特定 Windows 7/10/11 环境下 8.3 短路径导致 Java NIO Unix Domain Socket 异常的底层缺陷，确保离线后端稳定秒开",
+    "【仓储进销存】染化料库存台账、出入库联动、安全库存预警与来胚登记全流程闭环",
+    "【一键更新】智能测速多线路分片断点续传，支持 Gitee / GitHub 自动热切与完整性校验",
+    "【打印与离线授权】内嵌 C-Lodop 打印服务静默管理、硬件指纹离线激活与 14 天免费全功能试用"
   ],
-  "filename": "JiexinDyeManager-Setup-1.0.1.exe",
-  "size": 179551141,
-  "sha256": "1e550fab618166be2272952569812aed29a40f81b1544c7278374fdd6a0b1fb8",
+  "filename": "JiexinDyeManager-Setup-1.0.2.exe",
+  "size": 179656293,
+  "sha256": "cb838bedfd7364debb2546cedde1e45c5baca7203abbc86a5f6dc829697f5145",
   "partSize": 99000000,
   "parts": [
     {
       "index": 1,
       "size": 99000000,
-      "primary": "https://gitee.com/cat-stripe/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe.part1",
-      "fallback": "https://github.com/hanserdesu/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe.part1"
+      "primary": "https://gitee.com/cat-stripe/jiexin-desktop-release/releases/download/v1.0.2/JiexinDyeManager-Setup-1.0.2.exe.part1",
+      "fallback": "https://github.com/hanserdesu/jiexin-desktop-release/releases/download/v1.0.2/JiexinDyeManager-Setup-1.0.2.exe.part1"
     },
     {
       "index": 2,
-      "size": 80551141,
-      "primary": "https://gitee.com/cat-stripe/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe.part2",
-      "fallback": "https://github.com/hanserdesu/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe.part2"
+      "size": 80656293,
+      "primary": "https://gitee.com/cat-stripe/jiexin-desktop-release/releases/download/v1.0.2/JiexinDyeManager-Setup-1.0.2.exe.part2",
+      "fallback": "https://github.com/hanserdesu/jiexin-desktop-release/releases/download/v1.0.2/JiexinDyeManager-Setup-1.0.2.exe.part2"
     }
   ],
   "routes": [
@@ -32,13 +32,13 @@
       "id": "gitee",
       "name": "国内极速专线 (Gitee 镜像节点)",
       "manifestUrl": "https://gitee.com/cat-stripe/jiexin-desktop-release/raw/main/releases/latest.json",
-      "downloadUrl": "https://github.com/hanserdesu/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe"
+      "downloadUrl": "https://github.com/hanserdesu/jiexin-desktop-release/releases/download/v1.0.2/JiexinDyeManager-Setup-1.0.2.exe"
     },
     {
       "id": "github",
       "name": "海外备用专线 (GitHub 节点)",
       "manifestUrl": "https://raw.githubusercontent.com/hanserdesu/jiexin-desktop-release/main/releases/latest.json",
-      "downloadUrl": "https://github.com/hanserdesu/jiexin-desktop-release/releases/download/v1.0.1/JiexinDyeManager-Setup-1.0.1.exe"
+      "downloadUrl": "https://github.com/hanserdesu/jiexin-desktop-release/releases/download/v1.0.2/JiexinDyeManager-Setup-1.0.2.exe"
     }
   ]
 }
